@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>Modal Exercise</title>
+    <link href="styles.css" rel="stylesheet">
+</header>
+
+<body>
+    <main>
+        <div class="log-in">
+            <img src="images/peep-oracle.svg" alt="scrimba oracle" class="oracle">
+            <div class="log-in-details">
+                <h1>Hello there!</h1>
+                <button class="btn login">Login</button>
+            </div>
+        </div>
+        <!--/log-in-->
+
+        <!--     Modal Setup -->
+        <div class="overlay">
+            <div class="modal-contents">
+                <div class="close-cross">
+                    <p>+</p>
+                </div>
+                <img src="https://picsum.photos/50" alt="profile photo" class="profile-photo">
+                <input type="text" placeholder="Name" class="input-el name">
+                <input type="password" placeholder="Password" class="input-el password">
+                <p><a href="#" class="btn submit">Submit</a></p>
+                <p class="error"></p>
+            </div>
+            <!--/modal-->
+        </div>
+        <!--/overlay-->
+
+        <footer>Styling/Accessibility tips for Modals: <a href="https://css-tricks.com/considerations-styling-modal/"
+                class="source">https://css-tricks.com/considerations-styling-modal/</a></footer>
+
+        <script src="index.js"></script>
+    </main>
+</body>
+
+</html>
